@@ -1,0 +1,78 @@
+.entry-title{
+  font-family: 'Noto Sans Japanese';
+}
+
+.box11{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.box11 p {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  position: relative;
+  height: auto;
+  min-height: 101%;
+}
+
+#primary {
+  min-height:100vh;
+}
+
+.entry-header {
+  border-bottom: inset 1px #444;
+}
+
+body.custom-background {
+  /*background-image: url(../img/cheese.jpg);*/
+
+      background-color: rgba(54, 93, 145, 0.733);
+      background-position: left top;
+      background-size: auto;
+      background-repeat: repeat;
+      background-attachment: scroll
+}
+
+
+.subtitle {
+    color: blue;
+}
+
+#masthead .site-title {
+    font-family: Yesteryear
+}
+
+
+body {
+    font-family: Lato
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Bitter
+}
+
+#masthead .site-description,
+.hentry .entry-meta {
+    font-family: Open Sans Condensed
+}
+
+.panel_contents {
+    margin: auto 50px;
+}

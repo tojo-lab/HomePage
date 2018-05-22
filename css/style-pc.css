@@ -1,0 +1,10 @@
+#secondary {
+  width: 300px;
+  position: fixed;
+  top: 0px;
+}
+
+#primary {
+  width: 900px;
+  margin: 0 0 auto auto;
+}

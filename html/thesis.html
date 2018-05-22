@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" id="favicon" type="image/png" href="../img/favicon.png">
+        <title>Tojo lab. [JAIST]</title>
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" id="flat-fonts-css" href="https://fonts.googleapis.com/css?family=Yesteryear%7CLato:400,700%7CBitter%7COpen+Sans+Condensed" media="all" />
+        <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/styles-wp.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/style-pc.css" media="screen and (min-width: 1200px)">
+        <link rel="stylesheet" href="../css/style-fon.css" media="screen and (max-width: 1199px)">
+        <script src="../js/lib/jquery.js"></script>
+        <script src="../js/lib/flat.min.js"></script>
+        <script src="../js/script.js"></script>
+
+        <style>
+            .s-tbl {
+                border-collapse: collapse;
+            }
+
+            .s-tbl th,
+            .s-tbl td {
+                border: 1px solid #000;
+            }
+
+            .s-tbl tr:nth-child(even) {
+                background: #eee;
+            }
+
+            .s-tbl tr:hover {
+                background: #ff0;
+            }
+        </style>
+    </head>
+
+    <body class="custom-background">
+        <div id="page">
+            <div class="container">
+                <div class="row ">
+                    <!-- side bar -->
+                    <div id="secondary" class="col-lg-3">
+                        <header id="masthead">
+                            <h1 class="site-title display-title">
+                                <a href="../index.html">Menu</a>
+                            </h1>
+                            <button type="button" class="btn btn-link hidden-lg toggle-navigation">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                            <nav id="site-navigation">
+                                <ul id="menu-menu" class="nav-menu">
+
+                                    <li class="fa  fa-home">
+                                        <ul>
+                                            <li>
+                                                <div class="panel_list">
+                                                    <a>東条研究室 / Tojo lab</a>
+                                                    <div class="panel_contents" style="display:none">
+                                                        <div>
+                                                            <a href="../html/intro.html">研究室紹介 / intro</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/thema.html">研究テーマ / topics</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/way.html">修士への道 / seminar</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/member.html">東条研メンバー / people</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/thesis.html">過去の学位論文 / theses</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="fa fa-pencil">
+                                        <ul>
+                                            <li>
+                                                <div class="panel_list">
+                                                    <a>研究のススメ方 / how to study</a>
+                                                    <div class="panel_contents" style="display:none">
+                                                        <div>
+                                                            <a href="../html/beginning.html">研究を始める前に</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/proceed.html">研究乃ススメ方</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/outline.html">論文の構成</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/symbol.html">記号は正しく使おう</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="fa fa-file-word-o">
+                                        <ul>
+                                            <li>
+                                                <div class="panel_list">
+                                                    <a>授業 / lectures</a>
+                                                    <div class="panel_contents" style="display:none">
+                                                        <div>
+                                                            <a href="../html/lecture.html">授業資料/スケジュール</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="fa fa-download">
+                                        <ul>
+                                            <li>
+                                                <div class="panel_list">
+                                                    <a>制作物  / Tools</a>
+                                                    <div class="panel_contents" style="display:none">
+                                                        <div>
+                                                            <a href="../html/software-hatano.html">Belief Calculator</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/demo.html">DEMO+A</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/software-nomura.html">ELVis</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                     <li class="fa fa-link">
+
+                                        <ul>
+                                           <li>
+                                                <div class="panel_list">
+                                                    <a>リンク / Links</a>
+                                                    <div class="panel_contents" style="display:none">
+                                                        <div>
+                                                            <a href="../html/link.html">リンク / Links</a>
+                                                        </div>
+                                                        <div>
+                                                            <a href="../html/conference.html">会議情報 / deadlines</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </header>
+                    </div>
+                    <!-- main section -->
+                    <div id="primary" class="content-area col-lg-9">
+                        <div id="content" class="site-content">
+                            <article class="   hentry">
+                                <header class="entry-header">
+                                    <a href="../index.html">
+                                        <h1 class="entry-title" style="color:black">
+                                            <img src="../img/rogo.png" width="70px" height="70px" id="rogo"> 東条研究室 Tojo Lab.</h1>
+                                    </a>
+                                    <h4 style="text-align:center">School of Information Science, JAIST</h4>
+                                </header>
+                                <!-- contents -->
+
+                                                            <body>
+
+                                                                <div>
+                                                                    <h1>過去の学位論文 / Tojo lab's Theses </h1>
+                                                                    <p>NOTE: 学位論文検索は
+                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/JAIST/theses">JAIST 学術研究成果リポジトリ</a>から</p>
+
+                                                                    <h3>博士論文 / Ph.D. Theses</h3>
+                                                                    <div>
+
+
+
+                                                                        <table id="sort_table" class="tablesorter">
+                                                                            <tr>
+                                                                                <th class="" style="width:80px">Year</th>
+                                                                                <th class="" style="width:120px">Author <br> </th>
+                                                                                <th class="">Title</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2017-06</td>
+                                                                                <td class="">Jirakunkanok, Pimolluck</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/14749">
+                                                                                        Logic-based Analysis of Belief Change in Judgment
+                                                                                    </a>
+                                                                                    <br> (判决過程における信念変更の論理的解析)
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2017-03</td>
+                                                                                <td class="">Hatano, Ryo<br>秦野, 亮 </td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/14247">
+                                                                                        Linear Algebraic Semantics for Modal Logic of Multi-agent Communication</a>
+                                                                                    <br> (マルチエージェント・コミュニケーションのための様相論理に関する線形代数的意味論)
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2016-03</td>
+                                                                                <td class="">Nomura, Shoshin<br>野村, 尚新</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/13517">
+                                                                                      Labelled Sequent Calculi for Dynamic Epistemic Logics</a>
+                                                                                    <br>(動的認識論理のラベル付きシークエント計算の研究)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2014-12</td>
+                                                                                <td class="">Nguyen, Thi Hong Nhung</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12619">
+                                                                                      Unsupervised Relation Extraction from Biomedical Literature Using Deep Syntax</a>
+                                                                                    <br>(深い統語構造を利用した生命科学文献からの関係抽出)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2010-03</td>
+                                                                                <td class="">Matoba, Ryuichi<br>的場, 隆一</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/8863">
+                                                                                      Efficiency of the Symmetry Bias in Grammar Acquisition</a>
+                                                                                    <br>(構文獲得における対称性バイアスの有効性)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2009-03</td>
+                                                                                <td class="">Hagiwara, Shingo<br>萩原, 慎吾</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/8001">
+                                                                                      Verification of Legal Knowledge-base with Conflictive Concept</a>
+                                                                                    <br>(対立を用いた法的知識の整合性検証)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2009-03</td>
+                                                                                <td class="">Kobayashi, Mikito<br>小林, 幹門</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/7997">
+                                                                                      Agent Communication in Belief Update Logic</a>
+                                                                                    <br>(通信チャネルを組み込んだ論理体系に基づくエージェント間通信の表現)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2007-03</td>
+                                                                                <td class="">Nwe, Ni Tun</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/3567">
+                                                                                      Semantic Enrichment in Ontologies for Analysis and Matching</a></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2006-03</td>
+                                                                                <td class="">Yoshioka, Suguru<br>吉岡, 卓</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/982">
+                                                                                      Temporal Logic to Represent Linguistic Features</a>
+                                                                                    <br>(言語学的特長を表現するための時相論理)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2006-03</td>
+                                                                                <td class="">Matsui, Hiroki<br>松井, 宏樹</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/9099">
+                                                                                      Analysis of Foreign Exchange Interventions with an Artificial Market Approach</a>
+                                                                                    <br>(人工市場モデルを用いた為替介入政策の分析)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2005-03</td>
+                                                                                <td class="">Itoh, Hideo<br>伊藤, 日出男</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/963">
+                                                                                      Research of the location-based information processing technique based on the photonic technology</a>
+                                                                                    <br>(光技術を用いた位置に基づく情報処理技術に関する研究)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2004-03</td>
+                                                                                <td class="">Suzuki, Yoshitaka<br>鈴木, 義崇</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/950">Fusion of Pedigreed Preferential Relations as Beliefs</a>
+                                                                                    <br>(情報源の明らかな選好関係を信念とした融合)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2004-03</td>
+                                                                                <td class="">中村, 誠<br>Nakamura, Makoto</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/948">Emergence of pidgins and creoles in the simulation of language evolution</a>
+                                                                                    <br>(言語進化シミュレーションにおけるピジンとクレオールの創発に関する研究)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2001-03</td>
+                                                                                <td class="">Kaneiwa, Ken<br>兼岩, 憲</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/911">
+                                                                                      An Order-Sorted Logic with Predicate-Hierarchy, Eventuality and Implicit Negation</a>
+                                                                                    <br>(述語階層, イベント性および内在的否定を導入した順序ソート論理)</td>
+                                                                            </tr>
+
+                                                                        </table>
+
+                                                                        <h3>修士論文 / Master Theses (from 2012)</h3>
+                                                                        <table id="sort_table" class="tablesorter">
+                                                                            <tr>
+                                                                                <th class="" style="width:80px">Year</th>
+                                                                                <th class="" style="width:120px">Author</th>
+                                                                                <th class="">Title</th>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2018-03</td>
+                                                                                <td class="">石輪, 悠貴</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/15210">改良TPSに基づいたGTTMにおけるCadential Retention</a>
+                                                                                </td>
+
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2018-03</td>
+                                                                                <td class="">Nguyen, Dinh Nghi</td>
+                                                                                <td class="">Detecting local grouping boundaries of music pieces based on deep learning
+                                                                                    technique(学内限定)
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2017-09</td>
+                                                                                <td class="">Song, Yang</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/14802">議論理論に基づく推理小説の犯人推理</a>　</td>
+
+                                                                            </tr>
+
+
+                                                                            <tr>
+                                                                                <td class="">2017-03</td>
+                                                                                <td class="">関, 帆志生</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/14177">直示語を扱うための Indexical Hybrid Logic の拡張</a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2017-03</td>
+                                                                                <td class="">須藤, 洸基</td>
+                                                                                <td class="">繰り返し学習モデルによる楽曲構造の発見(学内限定)</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2017-03</td>
+                                                                                <td class="">Arn, Sean Haber</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/14171">Revision of TPS with Switch Cost in Relative Keys</a>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2016-09</td>
+                                                                                <td class="">Tran Xuan, Hoang</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/13737">Information Filtering System with Reliability-ranked Agents</a>　</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="">2016-03</td>
+                                                                                <td class="">飯塚, 昂史</td>
+                                                                                <td class="">エージェント間の信頼度を考慮した知識状態の変化に関する研究(学内限定)</td>
+                                                                            </tr>
+
+                                                                            <tr>
+                                                                                <td class="">2015-03</td>
+                                                                                <td class="">上島, 駿平</td>
+                                                                                <td class="">
+                                                                                    <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12657">動的信念論理に基づく信念変更のAIへの応用</a>　</td>
+                                                                                <tr>
+                                                                                    <td class="">2015-03</td>
+                                                                                    <td class="">小玉, 昂史</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12630">GTTMにおけるcadential retentionに関する理論の再構成</a>　</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2015-03</td>
+                                                                                    <td class="">毅, 孔</td>
+                                                                                    <td class="">Analysis of Music Distance(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2015-03</td>
+                                                                                    <td class="">鈴木, 啓章</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12631">マルチエージェントシミュレーションによる不規則動詞の規則化に対する人口流入の影響</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2015-03</td>
+                                                                                    <td class="">山本, 慎司</td>
+                                                                                    <td class="">嘘つきエージェントが存在するコミュニティにおける知識状態管理システム(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2014-03</td>
+                                                                                    <td class="">廣瀬, 伸也</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12021">エージェント間の通信チャネルの変化に対応した動作機構の構築</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2014-03</td>
+                                                                                    <td class="">Chen, Lifeng</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12008">動的な環境に対応するプラン再生成システム</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2014-03</td>
+                                                                                    <td class="">池ノ上, 杏奈</td>
+                                                                                    <td class="">形式意味論に基づく短編推理小説の犯人推論(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2014-03</td>
+                                                                                    <td class="">西山, 功太郎</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/12028">マルチエージェントシステムにおける知識状態の遷移観測機構の構築</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2013-09</td>
+                                                                                    <td class="">後藤, 哲史</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/11488">エージェントの情報伝達行為や知識・信念の更新の論理に関する調査研究 [課題研究報告書]</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-12</td>
+                                                                                    <td class="">小坂井, 誉規</td>
+                                                                                    <td class="">CRFを利用したWebページの自動構造化(学内限定)</td>
+
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">高松, 征賢</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/10442">回帰分析によるソーシャルブックマーク数の予測モデルの構築</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">古山, 義晃</td>
+                                                                                    <td class="">マルチエージェントシステムにおける相手の知識と位置情報を考慮した協調動作機構の構築(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">秦野, 亮</td>
+                                                                                    <td class="">入力操作の記号化に基づく文法規則の発見(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">安江, 亮</td>
+                                                                                    <td class="">一貫性を考慮した文抽出によるテキスト自動要約(学内限定)</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">中山, 貴樹</td>
+                                                                                    <td class="">
+                                                                                        <a target="_blank" href="https://dspace.jaist.ac.jp/dspace/handle/10119/10421">構文構造を用いた感情極性分類の精度向上</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="">2012-03</td>
+                                                                                    <td class="">酒井, 祐輝</td>
+                                                                                    <td class="">メンタル・スペース理論を用いた法令文における曖昧性の解析(学内限定)</td>
+                                                                                </tr>
+                                                                        </table>
+                                                                        <!--
+                                              <h4>2013</h4>
+                                              <ul>
+                                                <li>越川 智仁 (Koshikawa, Tomohito)</li>
+                                                <li>Teerat NAMCHAISAWATWONG</li>
+                                                <li>Porawee JITPRATAK</li>
+                                                <li>萩原 信吾 (Hagiwara, Shingo)</li>
+                                                <li>古山 義晃 (Koyama, Yoshiteru)</li>
+                                              </ul>
+                                 -->
+                                                                        <!-- <hr>
+                                              <h2>博士学位論文テーマ　Doctor’s Theses</h2>
+                                              <h3>2005</h3>
+                                              <ul>
+                                              <li>言語学的特長を表現するための時相論理, 吉岡 卓</li>
+
+                                              </ul>
+                                              <h3>2003</h3>
+                                              <ul>
+                                              <li>情報源の明らかな選好関係を信念とした融合, 鈴木 義崇</li>
+                                              <li>言語進化シミュレーションにおけるピジンとクレオールの創発に関する研究, 中村 誠</li>
+
+                                              </ul>
+                                              <h3>2000</h3>
+                                              <ul>
+                                              <li>述語階層、イベント性および内在的否定を導入した順序ソート論理, 兼岩 憲</li>
+
+                                              </ul>
+                                              <h2>修士学位論文テーマ　Master’s Theses</h2>
+                                              <h3>2005</h3>
+                                              <ul>
+                                              <li>エージェント間の通信経路を考慮した論理に基づく通信行為の形式化, 小林 幹門</li>
+                                              <li>連続な高次元状態空間における強化学習の適用, 高泉 竜一</li>
+                                              <li>多言語コミュニケーションにおける言語の単純化に関する研究, 的場 隆一</li>
+
+                                              </ul>
+                                              <h3>2003</h3>
+                                              <ul>
+                                              <li>複数の否定を表現するオーダソート論理の研究, 萩原 信吾</li>
+                                              <li>楽曲の緊張弛緩構造と主辞駆動句構造文法を用いた和声解析, 村田 敏之</li>
+                                              <li>エージェント間通信を考慮した論理に基づく推論システムの作成, 渡邊 光雄</li>
+                                              <li>遺伝的アルゴリズムを用いたレンズ設計の自動化, 佐々木 邦泰</li>
+
+                                              </ul>
+                                              <h3>2002</h3>
+                                              <ul>
+                                              <li>グルーピング規則適用を拡張したGTTMの実装, 東洋 武士</li>
+                                              <li>社会的ジレンマ環境における互恵性原理による協調行動の学習, 渡辺 亮介</li>
+                                              <li>HPSGを用いた古典ギリシア語文法の拡張, 中嶋 健一郎</li>
+                                              <li>HPSG を用いた楽曲の和声解析, 西田 昌史</li>
+
+                                              </ul>
+                                              <h3>2001</h3>
+                                              <ul>
+                                              <li>延長的簡約を拡張したGTTMによる楽曲の構造解析, 井田 健太郎</li>
+                                              <li>マルチエージェントを用いた外来語獲得モデルに関する研究, 小川 絵摩</li>
+                                              <li>共有認知空間を用いたエージェントの協調探索, 木崎 徳次郎</li>
+                                              <li>HPSGによるユークリッド原論の構文木の作成, 仙田 圭介</li>
+                                              <li>レシピ文における時間的関係構造の自動生成, 林 絵梨</li>
+                                              <li>多様性を持つエージェントによる人工市場モデルの構築, 松井 宏樹</li>
+
+                                              </ul>
+                                              <h3>2000</h3>
+                                              <ul>
+                                              <li>直観主義論理に対する図を用いた推論システムの構築, 石田 泰三</li>
+                                              <li>情報源に対する信頼度を考慮した信念の更新, 鈴木 義崇</li>
+                                              <li>否定的意味が内在するソートを含む非単調推論の研究, 水野 幸喜</li>
+                                              <li>型階層論理における推論のダイアグラム化, 吉岡 卓</li>
+                                              <li>マルチエージェント系における集団的戦略変更に関する研究, 吉田 憲世</li>
+
+                                              </ul>
+                                              <h3>1999</h3>
+                                              <ul>
+                                              <li>確率文脈自由文法を持つエージェント間での言語共有, 武田 稔也</li>
+                                              <li>様相オペレータを具備したマルチエージェントによる追跡問題の研究, 鈴木 貴雄</li>
+
+                                              </ul>
+                                              <h3>1998</h3>
+                                              <ul>
+                                              <li>トランザクション論理を用いた信念推定に関する研究, 伊神 健二</li>
+
+                                              </ul>
+                                              <h3>1997</h3>
+                                              <ul>
+                                              <li>マルチエージェント環境における概念の共通化, 宮崎 徹</li>
+                                              <li>型階層を導入した状況推論システム, 兼岩 憲</li>
+                                              <li>定性推論による物理式理解モデルの研究, 跡見 真児</li>
+                                              <li>発話意図を理解する協調的対話モデル, 中島 玲子</li>
+
+                                              </ul>
+                                              <h3>1996</h3>
+                                              <ul>
+                                              <li>マルチエージェント・モデルによる共通文法の獲得, 中村 誠</li>
+                                              <li>時間関係に基づく事例間の類似性評価システム, 是枝 洋介</li>
+                                              <li>集合的な状況の形式化とそれに基づく法的推論システム, 大森 正則</li>
+                                              <li>非単調推論をい用た分散診断システム, 小藤 義行</li>
+                                              </ul> -->
+                                                                    </div>
+                                                            </body>
+                                <!-- end contents -->
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
