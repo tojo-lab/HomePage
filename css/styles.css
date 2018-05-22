@@ -1,3 +1,46 @@
+@media screen and (max-width: 1199px){
+  #rogo {
+  width: 40px;
+  height: 40px;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+#secondary {
+  width: 300px;
+  position: fixed;
+  top: 0px;
+}
+
+#primary {
+  width: 900px;
+  margin: 0 0 auto auto;
+}
+
+}
+
+
+            .s-tbl {
+                border-collapse: collapse;
+            }
+
+            .s-tbl th,
+            .s-tbl td {
+                border: 1px solid #000;
+            }
+
+            .s-tbl tr:nth-child(even) {
+                background: #eee;
+            }
+
+            .s-tbl tr:hover {
+                background: #ff0;
+            }
+            .panel_list > a {
+                cursor: pointer;
+            }
+
 .entry-title{
   font-family: 'Noto Sans Japanese';
 }
